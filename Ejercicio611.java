@@ -44,7 +44,7 @@ static char codifica(char conjunto1[], char conjunto2[], char c) {
         return conjunto2[pos];
     }
 }
-  //llamamos a la función codifica para decodificar un texto
+  //Se decodifica el texto usando la función codifica.
     static String decodifica(char conjunto1[], char conjunto2[], String texto) {
         texto= texto.toLowerCase();
         char[] decodificado = new char[texto.length()];
